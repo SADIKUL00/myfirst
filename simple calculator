@@ -1,0 +1,13 @@
+# simple calculator exercises in python
+#first create function for add,substruction,multiply,divition
+def add(a,b):
+  print(a+b)
+def subs(a,b):
+  print(a-b)
+def multiply(a,b):
+  print(a*b)
+def div(a,b):
+  print(a/b)
+oper = input("Enter a operator: +,-,*,/")
+if oper == '+':
+  
