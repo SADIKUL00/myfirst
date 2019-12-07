@@ -8,6 +8,18 @@ def multiply(a,b):
   print(a*b)
 def div(a,b):
   print(a/b)
-oper = input("Enter a operator: +,-,*,/")
+a = int(input('Enter first number: '))
+oper = input("Enter operator: +,-,*,/: ")
+
+b = int(input('Enter second number: '))
 if oper == '+':
+   add(a,b)
+elif oper == '-':
+    subs(a,b)
+elif oper == '*':
+    multiply(a,b)
+elif oper == '/':
+    div(a,b)
+else:
+    print('your input invalid')
   
